@@ -1,0 +1,107 @@
+TEST CASES:
+
+1. Input: ./pointersorter "aand Aand AAnd aAnd"
+
+   Output: AAnd
+           Aand
+           aAnd
+           aand
+
+2. Input: ./pointersorter "fish fishy fisher FisH fiShy fiSHEr fIsh fIshy fIsher fisherr fisheRr fisHer fiSher fishEr cow"
+
+   Output: FisH
+           fIshy
+           fIsher
+           fIsh
+           fiSHEr
+           fiShy
+           fiSher
+           fisHer
+           fishEr
+           fishy
+           fisheRr
+           fisherr
+           fisher
+           fish
+           cow
+
+3. Input: ./pointersorter  ""
+
+   Output: (Prints nothing but a blank line).
+
+
+4. Input: ./pointersorter Hello World Java
+
+   Output: Insufficient Arguments. Enter the correct number of arguments.
+
+
+5. Input: ./pointersorter "Death1212death64734dEath6746deaTh4675634785deAth675435deatH"
+
+   Output: Death
+           dEath
+           deAth
+           deaTh
+           deatH
+           death
+
+
+6. Input: ./pointersorter "547857384"
+
+
+   Output: (Prints nothing but a blank line)
+
+
+7. Input: ./pointersorter "dheh" "hrfh" "Archit"
+
+   Output: Insufficient Arguments. Enter the correct number of arguments.
+   
+8. Input: ./pointersorter "energetically100march289379marmosets73947392zoo749327462zounds738947923"
+
+   Output: zounds
+           zoo
+           marmosets
+           march
+           energetically
+
+9. Input: ./pointersorter "Tooth tOoth Toor TOOtH ToOth TOotH TOoth tOoth ToOtH ToOTh ToOthe tour tooth toOth toOTH tOoTH toOtH tuscaloosa ambulance aMbulance Ambluance"
+
+   Output: TOOtH
+           TOotH
+           TOoth
+           ToOTh
+           ToOtH
+           ToOthe
+           ToOth
+           Tooth
+           Toor
+           Ambluance
+           tOoTH
+           tOoth
+           tOoth
+           tuscaloosa
+           toOTH
+           toOtH
+           toOth
+           tour
+           tooth
+           aMbulance
+           ambulance
+
+10. Input: ./pointersorter "thing15[45.[45.[.4stuff3.5[63;3[;453otherstuff,489573495blarp"
+
+    Output: thing
+            stuff
+            otherstuff
+            blarp
+
+11. Input: ./pointersorter "Hosue37423428hfhdh63763Hhsg$\nj7r6864Hhw78363nHghgtd786e8hHggg"
+
+    Output: Hosue
+            Hhw
+            Hhsg
+            r
+            nHghgtd
+            nj
+            hHggg
+            hfhdh
+            e
